@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/scc.css" />
+  </head>
+  <body class="container">
+    <!-- Cabeçalho -->
+    <header
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #e0e0e0;
+      "
+    >
+      <h1 style="font-size: 2rem">Site de Viagens</h1>
+
+      <!-- Menu de Navegação -->
+      <nav>
+        <ul style="list-style: none; display: flex; gap: 20px">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="planos.html">Planos de Viagem</a></li>
+          <li><a href="fotos.html">Fotos</a></li>
+          <li><a href="links.html">Links</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main style="padding: 40px 0 40px 0">
+      <section>
+        <h2>Fale Conosco</h2>
+        <p>
+          Tem dúvidas, sugestões ou quer montar um plano personalizado? Envie
+          sua mensagem para a gente!
+        </p>
+
+        <form action="#" method="post">
+          <label for="nome">Nome:</label><br />
+          <input type="text" id="nome" name="nome" required /><br /><br />
+
+          <label for="email">E-mail:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="assunto">Assunto:</label><br />
+          <input type="text" id="assunto" name="assunto" /><br /><br />
+
+          <label for="mensagem">Mensagem:</label><br />
+          <textarea id="mensagem" name="mensagem" rows="5" required></textarea
+          ><br /><br />
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <p style="text-align: center">
+        Gabriel Gonçalves Mascarenhas - RA: 5167587
+      </p>
+      <br />
+      <img
+        src="imagens/logouniube.png"
+        alt="Logotipo UNIUBE"
+        style="width: 150px; display: block; margin: 0 auto"
+      />
+    </footer>
+  </body>
+</html>
